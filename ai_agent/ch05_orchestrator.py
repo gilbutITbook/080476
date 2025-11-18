@@ -6,7 +6,7 @@ from utils import llm_call, llm_search_async
 # 오케스트레이터 프롬프트 생성 함수 선언
 def get_orchestrator_prompt(user_query):
     return f"""
-다음 사용자 질문을 분석한 뒤, 이를 3개 이내의 관련된 하위 질문으로 분해해.
+다음 사용자 질문을 분석한 뒤, 이를 3개 이내의 관련 하위 질문으로 분해해.
 결과는 JSON 배열로 출력해.
 JSON 배열 안의 각 하위 질문은 다음 형식을 따르는 JSON 객체로 만들어.
 [
