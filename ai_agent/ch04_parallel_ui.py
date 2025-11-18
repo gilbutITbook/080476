@@ -37,7 +37,7 @@ async def run_parallel_agent(question, selected_models):
         "최종 응답만 출력해.\n"
         "사용자 질문:\n"
         f"{question}\n\n"
-        "모델 응답들:"
+        "모델 응답:"
     )
     for i in range(len(parallel_prompt_details)):
         aggregator_prompt += f"\n{i+1}. 모델 응답: {responses[i]}\n"
