@@ -99,9 +99,9 @@ async def run_orchestrator_workflow(user_query):
 
     print("\n====== 애그리게이터 프롬프트 ======\n", aggregator_prompt)
 
-    # 최종 리포트 생성
+    # 최종 보고서 생성
     final_response = llm_call(aggregator_prompt, model="gpt-4.1")
-    print("\n=========== 최종 리포트 결과 ===========")
+    print("\n=========== 최종 보고서 결과 ===========")
     print(final_response)
 
 # 메인 함수 선언 및 워크플로 실행
