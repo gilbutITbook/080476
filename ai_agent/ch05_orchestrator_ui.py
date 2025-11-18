@@ -105,11 +105,11 @@ async def run_orchestrator_workflow_streamlit(user_query):
         aggregator_prompt += f"\n{i+1}. 하위 질문: {subtask_list[i]['question']}\n"
         aggregator_prompt += f" 응답: {worker_responses[i]}\n"
 
-    st.subheader("(3) 최종 리포트 생성")
+    st.subheader("(3) 최종 보고서 생성")
     with st.expander("애그리게이터 프롬프트", expanded=False):
         st.code(aggregator_prompt)
 
-    # 최종 리포트 생성
+    # 최종 보고서 생성
     final_response = llm_call(aggregator_prompt, model="gpt-4.1")
     st.write(final_response)
 
