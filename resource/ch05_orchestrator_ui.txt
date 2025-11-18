@@ -35,7 +35,7 @@ def get_worker_prompt(user_query, question, description):
 하위 질문: {question}
 하위 질문의 의도: {description}
 하위 질문을 철저히 분석해 그에 대해 포괄적이고 상세하게 응답해.
-웹 검색 도구를 이용해 자료를 조사하고, 이를 반영해 응답해.
+웹 검색 도구를 이용해 자료 조사를 하고, 이를 반영해 응답해.
 """
 
 # 여러 LLM 요청 병렬 실행
