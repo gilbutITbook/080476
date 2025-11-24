@@ -88,7 +88,7 @@ def loop_workflow_ui(content, max_retries=5):
     return last_summary
 
 def main():
-    st.title("평가-최적화 에이전트")
+    st.title("🧠 평가-최적화 에이전트")
 
     # 원문 입력 및 평가 기준 표시
     default_url = "https://raw.githubusercontent.com/dabidstudio/sample_files/refs/heads/main/sample_wiki_text.md"
