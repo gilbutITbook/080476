@@ -91,7 +91,7 @@ def main():
     st.title(" 평가-최적화 에이전트")
 
     # 원문 입력 및 평가 기준 표시
-    default_url = "https://raw.githubusercontent.com/Hanalia/ai_agents_streamlit/main/sample/sample.md"
+    default_url = "https://raw.githubusercontent.com/dabidstudio/sample_files/refs/heads/main/sample_wiki_text.md"
     default_content = requests.get(default_url).text
 
     tabs = st.tabs(["원문", "평가 기준(참고용)"])
