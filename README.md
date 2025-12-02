@@ -2,7 +2,7 @@
 
 이 저장소에는 <AI 자율학습 밑바닥부터 배우는 AI 에이전트>의 예제 소스 코드가 담겨 있습니다.
 
-/표지 업데이트 예정/
+<img width="591" height="574" alt="Image" src="https://github.com/user-attachments/assets/ffc84fc1-b703-4349-9f09-24022ec371e7" />
 
 ## 예제 코드 다운로드 및 확인 방법
 
